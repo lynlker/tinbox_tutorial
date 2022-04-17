@@ -64,6 +64,19 @@ h3{
 #pricing{
   padding: 100px;
 }
+
+#cta{
+  background-color: #D7A86E;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding-top: 5%;
+}
 /* NAVIGATION BAR */
 
 .navbar{
@@ -147,4 +160,36 @@ h3{
 .pricing-column{
   padding: 3% 2%;
   text-align: center;
+}
+
+/* CALL TO ACTION SECTION */
+.cta-title{
+  font-weight: 900;
+  font-size: 2.5rem;
+  width: 40%;
+  margin: 0 auto;
+}
+
+/* FOOTER SECTION */
+
+.footer-icons{
+  line-height: 4;
+}
+.footicon{
+  margin: 0 0.5%;
+}
+
+.copyright-text{
+  font-size: 0.8rem;
+}
+@media (max-width: 1028px) {
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
 }
